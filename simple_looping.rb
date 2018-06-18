@@ -5,10 +5,10 @@ def loop_iterator(number_of_times)
   n = 1
   loop do
     puts "Welcome to Flatiron School's Web Development Course!"
-    n+=1
     if n == number_of_times
       break
     end
+    n+=1
   end
 end
 
